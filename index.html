@@ -1,10 +1,413 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ghost host</title>
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    </head>
+    <body>
+            <header>
+                <div class="headdiv">
+                    <div class="logo"><img src="img/Logo.png" alt="logo"></div>
+                    <nav class="headerNav">
+                        <div class="topnav" id="myTopnav">
+                            <ul>
+                           <li><a href="#home">Home</a></li>
+                           <li><a href="#domain">Domain</a></li>
+                           <li><a href="#hosting">Hosting</a></li> 
+                           <li><a href="#clients">Clients</a></li> 
+                           <li><a href="#blog">Blog</a></li> 
+                           <li><a href="#support">Support</a></li> 
+                            </ul>
+                        </div>    
+                    </nav>  
+                </div>      
+            </header>
+                
+        <main>
+           <div class="bghead">
+                <div class="main_welcome" id=home>
+                    <h1>HELLO!</h1>
+                    <p>We love our work...</p>
+                    <p>And We're taking it seriously...</p>
+                </div>
+            </div>
+            
+            
+            <div class="logbuttons">
+                <button type="submit" class="logbutton">LOGIN</button>
+                <button type="button" class="regbutton">REGISTER </button>
+            </div>    
+            
 
-</body>
+            <div class="domain" id=domain>
+                <h1>Would you like to buy a new domain ?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
+                <table class="choice">
+                    <tr>
+                        <td class="www">www.</td>
+                        <td class="quest"><input type="text" class="quest1" placeholder="What do you want?"></td>
+                        <td class="domain">
+                            <select>
+                                <option value="com">.com</option>
+                                <option value="ru">.ru</option>
+                                <option value="by">.by</option>
+                                <option value="org">.org</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div class="prices1">
+                    <div class="topLinePrices">
+                        <div class="cellLeft"><p>.COM</p></div>
+                        <div class="verticalLine"></div>
+                        <div class="cell"><p>1 Year</p></div>
+                        <div class="verticalLine"></div>
+                        <div class="cell"><p>$9.00 USD</p></div>
+                        <div class="verticalLine"></div>
+                        <div class="cellRight"><p>Transfer Price No</p></div>
+                    </div>
+                    <div class="bottomLinePrices">
+                        <div class="cell2Left"><p>.NET</p></div>
+                        <div class="verticalLine2"></div>
+                        <div class="cell2"><p>1 Year</p></div>
+                        <div class="verticalLine2"></div>
+                        <div class="cell2"><p>$9.00 USD</p></div>
+                        <div class="verticalLine2"></div>
+                        <div class="cell2Right"><p>Transfer Price No</p></div>
+                    </div>
+                </div>
+                <!-- <table class="prices" cellspacing="0" cellpadding="4">
+                    <tr>
+                            <td class="firstline">.COM</td>
+                            <td class="firstline">1 Year</td>
+                            <td class="firstline">$9.00 USD</td>
+                            <td class="rghttab1">Transfer Price No</td>
+                    </tr>
+                    <tr>
+                            <td>.NET</td>
+                            <td>1 Year</td>
+                            <td>$9.00 USD</td>
+                            <td class="rghttab2">Transfer Price No</td>
+                    </tr>
+                </table> -->
+            </div>
+            <div class="hosting" id="hosting">
+                
+                <div class="packages">
+                    <div class="basic">
+                        <table class=packagetable>
+                            <tr>
+                                <td class="withouttopborder">
+                                    <img src="img/Basic-Package-Level-Bar.jpg" class="logotable">
+                                    <h1 class="texttabletd1">BASIC PACKAGE</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="spacebetweentd">
+                                    <ul class="texttabletd2">
+                                        <li class="topli">Disk Space (GB)</li>
+                                        <li class="midli">Subdomains</li>
+                                        <li class="midli">Transfer (GB)</li>
+                                        <li class="midli">Data bases </li>
+                                        <li class="midli">Dashboards </li>
+                                        <li class="midli">Control Panel & FTP </li>
+                                        <li class="botli">Free Support </li>
+                                    </ul>
+                                    <ul class="numbersrightbasic">
+                                            <li class="topli">50</li>
+                                            <li class="midli">50</li>
+                                            <li class="midli">50</li>
+                                            <li class="midli">1</li>
+                                            <li class="midli">1</li>
+                                            <li class="midli"></li>
+                                            <li class="botli"></li>
+                                        </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="priceplan">
+                                    <h3 class="currency">$</h3>
+                                    <h1 class="money">15</h1>
+                                    <h3 class="month">/Mo</h3>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="selecttable">
+                            <tr>
+                                <td class="selectplantd">
+                                    <h1 class="selectplan"> SELECT PLAN</h1>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="normal">
+                        <table class=packagetable>
+                            <tr>
+                                <td class="withouttopborder">
+                                    <img src="img/Normal-Package-Level-Bar.jpg" class="logotable">
+                                    <h1 class="texttabletd1">NORMAL PACKAGE</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="spacebetweentd">
+                                    <ul class="texttabletd2">
+                                        <li class="topli">Disk Space (GB)</li>
+                                        <li class="midli">Subdomains</li>
+                                        <li class="midli">Transfer (GB)</li>
+                                        <li class="midli">Data bases </li>
+                                        <li class="midli">Dashboards </li>
+                                        <li class="midli">Control Panel & FTP </li>
+                                        <li class="botli">Free Support </li>
+                                    </ul>
+                                    <ul class="numbersrightnormal">
+                                        <li class="topli">100</li>
+                                        <li class="midli">100</li>
+                                        <li class="midli">100</li>
+                                        <li class="midli">2</li>
+                                        <li class="midli">2</li>
+                                        <li class="midli"></li>
+                                        <li class="botli"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="priceplan">
+                                    <h3 class="currency">$</h3>
+                                    <h1 class="money">30</h1>
+                                    <h3 class="month">/Mo</h3>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="selecttable">
+                            <tr>
+                                <td class="selectplantdnormal">
+                                    <h1 class="selectplan"> SELECT PLAN</h1>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="big">
+                        <table class=packagetable>
+                            <tr>
+                                <td class="withouttopborder">
+                                    <img src="img/Big-Package-Level-Bar.jpg" class="logotable">
+                                    <h1 class="texttabletd1">BIG PACKAGE</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="spacebetweentd">
+                                    <ul class="texttabletd2">
+                                        <li class="topli">Disk Space (GB)</li>
+                                        <li class="midli">Subdomains</li>
+                                        <li class="midli">Transfer (GB)</li>
+                                        <li class="midli">Data bases </li>
+                                        <li class="midli">Dashboards </li>
+                                        <li class="midli">Control Panel & FTP </li>
+                                        <li class="botli">Free Support </li>
+                                    </ul>
+                                    <ul class="numbersrightbig">
+                                        <li class="topli">150</li>
+                                        <li class="midli">150</li>
+                                        <li class="midli">150</li>
+                                        <li class="midli">4</li>
+                                        <li class="midli">4</li>
+                                        <li class="midli"></li>
+                                        <li class="botli"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="priceplan">
+                                    <h3 class="currency">$</h3>
+                                    <h1 class="money">40</h1>
+                                    <h3 class="month">/Mo</h3>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="selecttable">
+                            <tr>
+                                <td class="selectplantdbig">
+                                    <h1 class="selectplan"> SELECT PLAN</h1>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="biggest">
+                        <table class=packagetable>
+                            <tr>
+                                <td class="withouttopborder">
+                                    <img src="img/Biggest-Package-Level-Bar.jpg" class="logotable">
+                                    <h1 class="texttabletd1">BIGGEST PACKAGE</h1>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="spacebetweentd">
+                                    <ul class="texttabletd2">
+                                        <li class="topli">Disk Space (GB)</li>
+                                        <li class="midli">Subdomains</li>
+                                        <li class="midli">Transfer (GB)</li>
+                                        <li class="midli">Data bases </li>
+                                        <li class="midli">Dashboards </li>
+                                        <li class="midli">Control Panel & FTP </li>
+                                        <li class="botli">Free Support </li>
+                                    </ul>
+                                    <ul class="numbersrightbiggest">
+                                        <li class="topli">250</li>
+                                        <li class="midli">250</li>
+                                        <li class="midli">250</li>
+                                        <li class="midli">6</li>
+                                        <li class="midli">6</li>
+                                        <li class="midli"></li>
+                                        <li class="botli"></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="priceplan">
+                                    <h3 class="currency">$</h3>
+                                    <h1 class="money">70</h1>
+                                    <h3 class="month">/Mo</h3>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="selecttable">
+                            <tr>
+                                <td class="selectplantdbiggest">
+                                    <h1 class="selectplan">SELECT PLAN</h1>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="dashedline"></div>  
+                <div class="aboutus" id=clients>
+                    <div class="aboutleft">
+                      <h1 class="firstword">About</h1>
+                      <h2 class="secondword">Us</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Praesent feugiat eget diam sit amet molestie.Curabitur. 
+                        ut ipsum bibendum tortor lacinia fermentum nec joeıa. 
+                        Mauris at augue libero. Fusce posuere, sapien nec poır.
+                        Uaee augsuada sed mauris in tincidunt...</p>
+                    </div>   
+                    <div class="info">
+                        <div class="blockinfo1">
+                         <img src="img/avat1.jpg" class="avatar">
+                         <h1>Jonny Doe</h1>
+                         <p>Designer</p>
+                            <div class="links">
+                                <i class="fab fa-facebook-f"></i>  
+                                <i class="fab fa-twitter"></i>
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                            </div>
+                         
+                        </div>
+                        <div class="blockinfo2">
+                         <img src="img/avat2.jpg" class="avatar">
+                         <h1>John Doe</h1>
+                         <p>Designer</p>
+                            <div class="links">
+                             <i class="fab fa-facebook-f"></i>  
+                             <i class="fab fa-twitter"></i>
+                             <i class="fa fa-link" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="blockinfo3">
+                         <img src="img/avat3.jpg" class="avatar">
+                         <h1>Johnathan Doe</h1>
+                         <p>Designer</p>
+                            <div class="links">
+                             <i class="fab fa-facebook-f"></i>  
+                             <i class="fab fa-twitter"></i>
+                             <i class="fa fa-link" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments">
+                    <div class="quote">
+                    <p>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                        interdum dolor pulvinar vitae.”</p>
+                    </div>
+                    <div class="slides">
+                     <h1>John Doe</h1>
+                     <i class="far fa-circle"></i>
+                     <i class="far fa-circle"></i>
+                     <i class="far fa-circle"></i>
+                    </div>
+                </div>
+
+                <div class="functions">
+                    <div class="fastServers">
+                        <img src="img/fa-flash.png">
+                        <h1>Fast Servers</h1>
+                        <p>Nulla dapibus neque augue, quis  tincidunt tortor aliquam vitae</p>
+                    </div>
+                    <div class="cloudServers">
+                        <img src="img/fa-cloud.png">
+                        <h1>Cloud Servers</h1>
+                        <p>Nulla dapibus neque augue, quis  tincidunt tortor aliquam vitae</p>
+                    </div>
+                    <div class="domainTransfer">
+                            <img src="img/fa-arrows.png">
+                            <h1>Domain Transfer</h1>
+                            <p>Nulla dapibus neque augue, quis  tincidunt tortor aliquam vitae</p>
+                    </div>
+                    <div class="liveSupport">
+                            <img src="img/fa-comments.png">
+                            <h1>Live Support</h1>
+                            <p>Nulla dapibus neque augue, quis  tincidunt tortor aliquam vitae</p>
+                    </div>
+                </div>
+            </div>    
+        </main>
+        <footer>
+            <div class="logoNav">
+                <div class="bottomLogo"><img src="img/bottomLogo.png" alt="bottomlogo"></div>
+                <nav>
+                    <div class="bottomNav">
+                        <ul>
+                            <li><a href="#home">home</a></li>
+                            <li><a href="">about us</a></li>
+                            <li><a href="">blog</a></li> 
+                            <li><a href="">policy</a></li> 
+                            <li><a href="">contact</a></li> 
+                        </ul>
+                    </div>    
+                </nav>       
+            </div>
+            <div class="bottomFooter">
+                <div class="designBy">
+                    <p>Lorem ipsum dolor sit amet, consecteteeseurı adipiscing elit.
+                    Donec mollis commodoeesene que, non commodo risus volutpat vel.</p>
+                    <p class="designName">Design by <span class="boldText">Mert Can Eyriyer</span>.</p>
+                </div>
+                <div class="bottomMenu">
+                    <ul>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">support</span></li>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">account</span></li>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">product catalog</span></li>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">shortcodes</span></li>
+                    </ul>
+                    <ul>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">site map</span></li>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">whois search</span></li>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">web mail</span></li>
+                        <li><i class="fas fa-angle-right"></i><span class="paddingMenu">find domain</span></li>
+                    </ul>
+                </div>
+                <div class="footerInformation">
+                    <p><i class="fas fa-phone fa-flip-horizontal"></i>0000-0000-0000</p>
+                    <p><i class="fas fa-envelope"></i>informationteam@ghosthost.com</p>
+                    <p><span class="paddingMenu2">Lorem Ipsum Street, Lorem Avenue, Lorem Ipsum</span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
